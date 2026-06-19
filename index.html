@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jayditya Somaiya | Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a href="#home" class="logo">Jayditya</a>
+        <button class="nav-toggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact" class="nav-btn nav-btn--contact">Contact</a>
+          <a href="#resume" class="nav-btn nav-btn--resume">Resume</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-layout">
+          <div class="hero-text-panel">
+            <p class="eyebrow">Mechanical Engineering Student</p>
+            <h1>I design systems that turn concepts into physical realities.</h1>
+            <p class="hero-text">
+              Mechanical Engineering undergraduate specializing in aerodynamic design and simulation.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">Explore Projects</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h3>How I Build</h3>
+            <div class="hero-card__image">
+              <img src="profile.jpg" alt="Jayditya Somaiya" />
+            </div>
+            <p>
+              Experienced in advanced SolidWorks and Autodesk Fusion 360 surface modeling, CFD using Ansys Fluent, and FEA for structural verification. My hands on design work spans high fidelity automotive CAD, UAV avionics systems, and motorsport aerodynamics.
+            </p>
+            <div class="current-stack">
+              <span>Current Stack</span>
+              <ul>
+                <li>SolidWorks</li>
+                <li>Fusion 360</li>
+                <li>Ansys</li>
+                <li>Siemens NX</li>
+                <li>Python</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section proof-section">
+        <div class="container proof-grid">
+          <div class="proof-card">
+            <h3>12% Drag Reduction</h3>
+            <p>Validated on pre-2022 F1 front wing via Ansys Fluent CFD, achieving an 18% downforce increase.</p>
+          </div>
+          <div class="proof-card">
+            <h3>22% Mass Reduction</h3>
+            <p>Optimized ICARUS UAV avionics housing while strictly maintaining a 2.0 structural safety factor.</p>
+          </div>
+          <div class="proof-card">
+            <h3>CSWA Certified</h3>
+            <p>Advanced surface modeling and mechanical design proficiency backed by the rigorous high precision projects.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+            I am a Mechanical Engineering undergraduate at Virginia Tech. I design and verify mechanical systems for air and ground vehicles. Experienced in advanced SolidWorks, Autodesk Fusion 360, and CATIA V5 surface modeling, CFD using Ansys Fluent, and FEA for structural verification. My design work spans high-fidelity automotive CAD, UAV avionics systems, and motorsport aerodynamics.
+          </p>
+        </div>
+      </section>
+
+      <section id="experience" class="section section-alt">
+        <div class="container">
+          <h2>Experience</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">September 2025 to Present</div>
+              <div class="timeline-card">
+                <h3>Structural Mechanical Designer</h3>
+                <p class="timeline-company">MachWorks at Virginia Tech</p>
+                <ul>
+                  <li>Designed avionics electrical housing and component mounts for a subsonic, jet powered UAV using Autodesk Fusion 360.</li>
+                  <li>Conducted Structural FEA (static loads) to evaluate stress distributions, validating polycarbonate material against a 2.0 safety factor and flight envelope integrity.</li>
+                  <li>Optimized structural enclosures for thermal stability and lightweight requirements, reducing enclosure mass by 22 percent while maintaining minimum safety factors.</li>
+                  <li>Manufactured the FDM 3D printed avionics bay, integrating critical electromechanical systems including an NVIDIA Jetson, BNO055 IMU, BMP sensors, GPS, and servo PDBs.</li>
+                </ul>
+                <div class="experience-gallery">
+                  <img class="exp-img" src="image1MACHWORKS.jpg" alt="MachWorks project image 1" />
+                  <img class="exp-img" src="image2machworks.jpg" alt="MachWorks project image 2" />
+                  <img class="exp-img" src="IMAGE3MACHWORKS.jpg" alt="MachWorks project image 3" />
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">Jan 2025 to May 2025</div>
+              <div class="timeline-card">
+                <h3>Undergraduate Research Fellow</h3>
+                <p class="timeline-company">Rostlab - Virginia Tech</p>
+                <ul>
+                  <li>Engineered custom PLA sample mounts in Fusion 360, utilizing FDM 3D printing to securely fixture fragile ceramic pellets during high-precision XRD testing.</li>
+                  <li>Presented MSE Open House 2025 demonstrations, explaining complex XRD and EXAFS technical workflows to an audience of 100+ visitors.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">June 2023 to July 2023</div>
+              <div class="timeline-card">
+                <h3>Mechanical Engineering Intern</h3>
+                <p class="timeline-company">Echaar Equipment Pvt Ltd</p>
+                <ul>
+                  <li>Operated Coordinate Measuring Machines (CMM) to execute geometric verification of CNC-machined components, analyzing M-code toolpaths to ensure strict GDT compliance.</li>
+                  <li>Collaborated with senior engineers to translate complex client CAD geometries into executable CNC production schedules, streamlining the manufacturing pipeline.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="project-list">
+            <article class="project-entry">
+              <h3>Bugatti Bolide Advanced Surface Modeling</h3>
+              <p class="project-tools">Tools: SolidWorks</p>
+              <ul>
+                <li>Modeled the Bugatti Bolide track hypercar using boundary surfaces, complex lofts, and precise knit tolerances.</li>
+                <li>Studied active aero interaction with the rear diffuser to accurately recreate aerodynamic geometry.</li>
+                <li>Managed hundreds of intersecting spline curves in the most technically complex CAD project to date.</li>
+              </ul>
+              <div class="project-image-grid">
+                <img class="project-img" src="bugatti1.png" alt="Bugatti Bolide image 1" />
+                <img class="project-img" src="bugatti2.png" alt="Bugatti Bolide image 2" />
+              </div>
+            </article>
+
+            <article class="project-entry">
+              <h3>Formula 1 Car Surface Modeling</h3>
+              <p class="project-tools">Tools: SolidWorks, Autodesk Fusion 360</p>
+              <ul>
+                <li>Independently modeled a complete F1 car from scratch, focusing on aerodynamic body surfaces and rear wing geometry.</li>
+                <li>Designed high fidelity surface models of a Formula 1 car, prioritizing aerodynamic continuity and packaging constraints.</li>
+              </ul>
+              <div class="project-image-grid">
+                <img class="project-img" src="formula1.jpg" alt="Formula 1 project image 1" />
+                <img class="project-img" src="formula2.jpg" alt="Formula 1 project image 2" />
+              </div>
+            </article>
+
+            <article class="project-entry">
+              <h3>BMW i8 Core Body Frame Design</h3>
+              <p class="project-tools">Tools: SolidWorks, Autodesk Fusion 360</p>
+              <ul>
+                <li>Built BMW i8 core body frame using surface modeling, prioritizing surface continuity and complex automotive curves.</li>
+                <li>Focused on high-fidelity body structure modeling to support design intent, manufacturability, and visual fidelity.</li>
+              </ul>
+              <div class="project-image-grid">
+                <img class="project-img" src="bmw1.jpg" alt="BMW i8 project image 1" />
+                <img class="project-img" src="bmw2.jpg" alt="BMW i8 project image 2" />
+              </div>
+            </article>
+
+            <article class="project-entry">
+              <h3>Engine Kinematics and Reliability Analysis</h3>
+              <p class="project-tools">Tools: SolidWorks, Excel</p>
+              <ul>
+                <li>Modeled a parametric 4 cylinder engine assembly with motion constraints to validate second order kinematics and a maximum piston velocity of 9.74 m/s.</li>
+                <li>Executed a DFMEA across 5 subsystems, calculating Risk Priority Numbers (RPN) to flag a high risk stress concentration and recommending a 3 mm fillet radius via dynamic FEA.</li>
+                <li>Applied FEA to conduct dynamic stress analysis on engine components, evaluating geometry induced stress concentrations and thermal CTE mismatches.</li>
+              </ul>
+              <div class="project-image-grid">
+                <img class="project-img" src="engine1.jpg" alt="Engine kinematics image 1" />
+                <img class="project-img" src="engine2.jpg" alt="Engine kinematics image 2" />
+              </div>
+            </article>
+
+            <article class="project-entry">
+              <h3>Pre 2022 F1 Front Wing External CFD Study</h3>
+              <p class="project-tools">Tools: Ansys Fluent, SolidWorks Flow Simulation</p>
+              <ul>
+                <li>Ran 3D external CFD at 30 m/s (low speed cornering) and 100 m/s (terminal velocity).</li>
+                <li>Achieved a 12 percent reduction in drag coefficient and 18 percent increase in downforce to inform front wing geometry decisions.</li>
+                <li>Validated quadratic dynamic pressure scaling and documented mesh limitations, proposing prism layer iterations targeting a y+ value of ~ 1.</li>
+              </ul>
+              <div class="project-image-grid">
+                <img class="project-img" src="aero1.png" alt="CFD study image 1" />
+                <img class="project-img" src="aero2.png" alt="CFD study image 2" />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <h2>Core Skills and Certifications</h2>
+          <div class="skills-grid">
+            <div class="skills-card">
+              <h3>Certifications</h3>
+              <p>Certified SOLIDWORKS Associate (CSWA)</p>
+            </div>
+            <div class="skills-card">
+              <h3>Software and Simulation</h3>
+              <p>SolidWorks, Autodesk Fusion 360, Siemens NX, Ansys Fluent (CFD), SolidWorks Flow Sim, MATLAB, Python</p>
+            </div>
+            <div class="skills-card">
+              <h3>Engineering Concepts</h3>
+              <p>FEA, Structural Analysis, Surface Modeling, DFM, GD&T, Tolerance Stack Up</p>
+            </div>
+            <div class="skills-card">
+              <h3>Manufacturing and Testing</h3>
+              <p>3D Printing (FDM/PLA), CMM, XRD, EXAFS, CNC M code</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact-box">
+          <h2>Have an engineering challenge?</h2>
+          <p>
+            Let's connect about high-fidelity CAD design, structural analysis, and aerodynamics. Email is the fastest way to reach me.
+          </p>
+          <div class="contact-actions">
+            <a href="mailto:jaydityasomaiya@gmail.com" class="contact-pill">Email Me</a>
+            <a href="https://www.linkedin.com/in/jayditya2104" target="_blank" rel="noreferrer" class="contact-pill">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Jayditya Somaiya</p>
+      <div class="footer-links">
+        <a href="mailto:jaydityasomaiya@gmail.com">jaydityasomaiya@gmail.com</a>
+        <a href="tel:+15409348412">(540) 934-8412</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
