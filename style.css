@@ -80,7 +80,6 @@ section {
   color: var(--text);
   font-weight: 700;
   letter-spacing: 0.08em;
-  text-transform: uppercase;
 }
 
 .nav-links {
@@ -173,6 +172,14 @@ section {
   font-size: clamp(3rem, 4.6vw, 5rem);
   line-height: 0.95;
   margin-bottom: 1rem;
+}
+
+.hero-tagline {
+  color: #FFFFFF;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 2.2rem;
+  line-height: 1.2;
+  font-weight: 700;
 }
 
 .hero-text-panel .hero-text {
